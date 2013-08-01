@@ -3,6 +3,8 @@ dbtoy
 
 Convenient wrapper and utilities for database operations
 
+.. images:: https://travis-ci.org/hustxxb/dbtoy.png?branch=master
+
 Features
 --------
 
