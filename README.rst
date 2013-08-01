@@ -1,8 +1,10 @@
-#dbtoy
+dbtoy
+=====
 
 Convenient wrapper and utilities for database operations
 
-##Features
+Features
+--------
 
 Using `Database.query(sql, args)` API for almost every SQL execute.
 
@@ -17,17 +19,20 @@ Others:
 - Transaction API for avoiding mis-commit pending transaction.
 - Full test case covered.
 
-##Install
+Install
+-------
 
     make install
 
-##Usage
+Usage
+-----
 
 In most case, using `Database.query(sql, args)` is enough.
 
 If you need more detailed control, using `connection` or `cursor` directly.
 
-####API
+API
+~~~
 
 - **query** (sql, args=None, cursor_class=DictCursor)
 
@@ -64,7 +69,8 @@ If you need more detailed control, using `connection` or `cursor` directly.
 
 
 
-####Example code
+Example code
+~~~~~~~~~~~~
 
 ::
 
